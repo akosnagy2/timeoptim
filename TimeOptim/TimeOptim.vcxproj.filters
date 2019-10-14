@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Path">
+      <UniqueIdentifier>{37aa810b-28ff-42ec-bfa3-f96a5072bf3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Robot">
+      <UniqueIdentifier>{e9142350-5232-4547-9db7-24ef4dde3df3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile">
+      <UniqueIdentifier>{3c767b7e-215d-48e8-b9e2-20d173fd2bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile\MTSOS">
+      <UniqueIdentifier>{f63ca963-5232-4a14-9742-f436e633eada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile\MTSOS_LP">
+      <UniqueIdentifier>{38e0e8d1-647c-4677-9947-271bb3b8c70b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile\Simplex">
+      <UniqueIdentifier>{97ff325e-8964-4c49-b3d8-c19a70a01abd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Path\Path.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Path\Point.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot\ManipRobot.cpp">
+      <Filter>Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\Profile.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\ProfileGurobi.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\ProfileHeuristic.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\Simplex\Simplex.cpp">
+      <Filter>Profile\Simplex</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Path\Trajectory.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="Profile\Timer.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Path\Path.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Path\Point.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot\ManipRobot.h">
+      <Filter>Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot\Robot.h">
+      <Filter>Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\Profile.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\ProfileGurobi.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\ProfileHeuristic.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\Simplex\Simplex.h">
+      <Filter>Profile\Simplex</Filter>
+    </ClInclude>
+    <ClInclude Include="Path\Trajectory.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="Profile\Timer.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
